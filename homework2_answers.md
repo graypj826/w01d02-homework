@@ -16,3 +16,6 @@ part 1, 3rd Commit
 2. "git check out [branch-name]" will switch to a specified branch adn updates working directory.
 3. Branches allow us to modified the code without affecting the "ready-for-production" master. It's handy for trying out new things or adjusting the code without worrying about breaking the master.
 
+Part 1, 4th Commit
+1. "git merge" merges the specified branch's history into the current branch. It would be good if you are working with a team and you want to bring the changes into the current branch or master. It's a good idea to do a pull request first because it gives others the opportunity to review your code before merging it into the master and possibly breaking it.
+2.  "git push" sends the local changes in your local repo into the remote repo. You may also have to use "git push [remote] [branch]" if the local repository needs to be sent to a specific and different branch. 
