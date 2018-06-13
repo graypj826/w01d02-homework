@@ -31,3 +31,4 @@ for (var i = 3; i<=90; i++) {
 		console.log(i)
 	}
 }
+

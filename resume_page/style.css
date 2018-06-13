@@ -3,6 +3,8 @@ body
 	background-color: navy;
 	color:white;
 	margin:auto;
+	border-top: 6px solid black;
+	border-bottom: 6px solid black;
 }
 
 .nav{
@@ -13,10 +15,17 @@ body
 	font-size: 25px;
 }
 
-table, th, td{
+.projectsTable{
 	border: 5px;
 	padding: 10px;
 	background-color: gray;
+	display: block;
+	float:inherit;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .project_title{
@@ -29,15 +38,32 @@ h2{
 	color: gold;
 
 }
-img{
+
+.button {
+    background-color: gold;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 10px;
+}
+
+.button a {
+    color: black;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img, iframe{
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
-}
-
-h1{
-	text-align: center;
+float:none;
+border:1px solid black;
 }
 
 a{
@@ -46,8 +72,21 @@ a{
 
 td{
 	vertical-align: top;
+	border-bottom: 3px solid white;
 }
 
 .recentPositions{
 	color:gold;
+}
+
+iframe{
+	background-color: white;
+}
+
+#introH, #introP{
+	text-align: center;
+}
+
+#roundedImg{
+	border-radius: 45%;
 }
